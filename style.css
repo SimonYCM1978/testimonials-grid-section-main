@@ -61,7 +61,7 @@ body{
     margin-bottom: 20px;
 }
 
-.header img {
+.header img, #testimonial-5 img {
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -77,8 +77,11 @@ body{
     font-size: 13px;
 }
 
-.image-1 {
+.image-1, .image-2, .image-3, .image-4, .image-5 {
     border-radius: 50%;
+}
+
+.image-1 {
     border: 2px solid #c4a2f6;
 }
 
@@ -154,12 +157,8 @@ h3 {
         margin-right: 15px;
     }
 
-    .header img {
-        width: 30px;
-        height: 30px;
-        border-radius: 50%;
-    }
 
+    /* image i and image 4 share this properties */
     .image-1 {
         border-radius: 50%;
         border: 2px solid #c4a2f6;
@@ -212,4 +211,5 @@ h3 {
     #testimonial-3, #testimonial-4 {
         box-shadow: 20px 40px 20px rgba(103, 109, 126, .2);
     }
+
 }
